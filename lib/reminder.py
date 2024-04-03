@@ -9,3 +9,11 @@ class Reminder:
     def remind(self):
         return f"{self.task}, {self.name}!"
     
+# Look here! We want to fail if there is no reminder yet.
+    # def remind(self):
+    #     if self.task is None:
+    #         raise Exception("No reminder set!")
+    #     return f"{self.task}, {self.name}!"
+    
+
+    
